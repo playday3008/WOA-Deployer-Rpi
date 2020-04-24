@@ -4,7 +4,6 @@ Fetch "http://ww1.microchip.com/downloads/en//softwarelibrary/obj-lan78xx-window
 Fetch "https://pi64.win/wp-content/uploads/2019/02/usb-drivers.zip" "Downloaded\Drivers\USB"
 FetchGitHubFolder "https://github.com/driver1998/bsp" "master" "prebuilt" "Downloaded\Drivers\BSP Drivers"
 Flash "Core\gpt.zip"
-ShowLicense "Downloaded\Drivers\USB\license.md"
 DeployWindows
 CopyDirectory "Downloaded\UEFI\RELEASE" "[System]"
 InjectDrivers "Downloaded\Drivers\BSP Drivers"
